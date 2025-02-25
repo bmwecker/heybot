@@ -12,7 +12,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "node-fetch": "2.6.7",
-    "@botpress/chat": "^0.0.16",
+    "@botpress/chat": "^0.0.15",
     "jsonwebtoken": "^9.0.0",
     "@heygen/streaming-avatar": "^2.0.9",
     "livekit-client": "^2.7.2"
