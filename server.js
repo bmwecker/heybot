@@ -4,11 +4,14 @@
 const express = require('express')
 const cors = require('cors')
 const fetch = require('node-fetch')
-const { Client } = require('@botpress/chat') // Официальный клиент Botpress
+const { Client } = require('@botpress/chat')
 require('dotenv').config()
 
 const app = express()
+
+// Вот — включаем CORS на все домены:
 app.use(cors())
+
 app.use(express.json())
 
 // Хранилище сеансов { sessionId: { userKey, conversationId } }
